@@ -2,7 +2,7 @@ import * as firebase from 'firebase';
 
 const firebaseApp = firebase.initializeApp({
 	apiKey: 'YOUR_API_KEY',
-	authDomain: 'fitom-site.firebaseapp.com',
+	authDomain: 'YOUR_AUTH_DOMAIN',
 	databaseURL: 'YOUR_DB_URL',
 	projectId: 'PROJECT_ID',
 	storageBucket: 'YOUR_STORAGE_BUCKET',
