@@ -1,0 +1,140 @@
+body {
+	background-color: #ffab40;
+}
+
+.bg-footer {
+	background-color: #010000 !important;
+}
+.bg-copyright {
+	/*background-color: #ffab40 !important;*/
+
+	background-color: #010000 !important;
+}
+
+.bg-emphasis {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(./image/sign_up.jpg);
+	background-size: cover;
+	min-height: 40vh;
+}
+
+.bg-dark {
+	background-color: #000000 !important;
+}
+
+.box {
+	min-height: 50vh;
+}
+
+.logo-name {
+	font-family: 'Monoton', cursive;
+	font-size: 28px;
+	letter-spacing: 1rem;
+}
+
+.slogan-1 {
+	font-family: 'Major Mono Display', monospace;
+	color: #ffab40 important!;
+}
+
+.slogan-2 {
+	font-family: 'Spartan', sans-serif;
+}
+p.slogan-1 {
+	color: #ffab40 important!;
+}
+
+.slogan-anim {
+	position: relative;
+	animation-name: slogan_animation;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+}
+
+@keyframes slogan_animation {
+	0% {
+		left: -800px;
+		top: 0px;
+	}
+
+	85% {
+		left: 50px;
+		top: 0px;
+	}
+
+	100% {
+		left: 0px;
+		top: 0px;
+	}
+}
+.display-4 {
+	font-size: 2.5rem;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+hr.new4 {
+	border: 1px solid white;
+}
+hr.descript {
+	border: 1px solid white;
+	width: 70vw;
+}
+hr.hr-before {
+	border: 1px solid white;
+	width: 40vw;
+}
+img.tes-pic {
+	border-radius: 50%;
+}
+/* Extra small devices (phones, 600px and down) 
+default - xs*/
+@media only screen and (max-width: 575px) {
+	.logo-name {
+		font-family: 'Monoton', cursive;
+		font-size: 19px;
+		letter-spacing: 1rem;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+	.bg-emphasis {
+		min-height: 50vh;
+	}
+	.h1,
+	h1 {
+		font-size: 2.5rem;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.bg-emphasis {
+		min-height: 55vh;
+	}
+	.h1,
+	h1 {
+		font-size: 3rem;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.bg-emphasis {
+		min-height: 65vh;
+	}
+	.h1,
+	h1 {
+		font-size: 3.5rem;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.bg-emphasis {
+		min-height: 75vh;
+	}
+	.slogan-1 h1 {
+		font-size: 0px !important;
+	}
+}
